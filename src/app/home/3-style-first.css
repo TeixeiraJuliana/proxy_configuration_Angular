@@ -1,0 +1,31 @@
+.first {
+  justify-content: center;
+  grid-gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 40px;
+}
+
+.first div:nth-child(1) {
+  grid-column: 1/3;
+  grid-template-rows: 1;
+}
+
+.first .item-cont {
+  height: 275px;
+  width: auto;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .first {
+    display: block;
+    width: 100%;
+  }
+  .first .item-cont {
+    margin: 8px;
+    margin-bottom: 20px;
+  }
+}

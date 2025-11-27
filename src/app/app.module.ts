@@ -9,13 +9,15 @@ import { AppService } from './app.service';
 import { MainComponent } from './main/app.main.component';
 import { LoginComponent } from './login/login.component';
 import { FormComponent } from './form/form.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     LoginComponent,
-    FormComponent
+    FormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

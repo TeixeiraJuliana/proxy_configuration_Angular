@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  /* background-color: var(--purple-strong); */
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--purple);;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--yellow-strong);;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  background-color: #f1f2f7;
+}
+
+.item {
+  height: 275px;
+  width: auto;
+  background-color: #fff;
+}
+.total {
+  width: 100%;
+  background-color: #e4e6f0;
+}
+
