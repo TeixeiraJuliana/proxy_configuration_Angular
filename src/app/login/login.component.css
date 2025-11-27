@@ -1,7 +1,7 @@
 
 .main-login{
     width: 100%; /*100 % do largura da view*/
-    height: 90vh; /*100 % da altura da view*/
+    height: 100vh; /*100 % da altura da view*/
     background: #201b2c;
     display: flex; /*tudo fica lado a lado*/
     justify-content: center;/*tudo fica no centro*/
